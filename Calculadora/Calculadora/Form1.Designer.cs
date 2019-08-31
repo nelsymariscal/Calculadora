@@ -265,6 +265,7 @@
             this.pantalla.Name = "pantalla";
             this.pantalla.Size = new System.Drawing.Size(330, 20);
             this.pantalla.TabIndex = 19;
+            this.pantalla.TextChanged += new System.EventHandler(this.Pantalla_TextChanged);
             // 
             // Form1
             // 

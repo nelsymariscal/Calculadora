@@ -137,6 +137,11 @@ namespace Calculadora
             pantalla.Clear();
         }
 
+        private void Pantalla_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void Nueve_Click(object sender, EventArgs e)
         {
             pantalla.Text = pantalla.Text + "9";
